@@ -2,8 +2,8 @@ import Image from "next/image"
 import { FiDownloadCloud } from "react-icons/fi";
 export default function Page() {
   return (
-      <main className="flex mt-[45px] p-24 h-screen flex-col">
-        <div className="flex items-center justify-between">
+      <main className="flex mt-[50px] px-[120px] flex-col">
+        <div className="flex items-center h-[65vh] justify-between">
             <div className="flex flex-col gap-4 w-[400px]">
                 <p className="text-5xl font-semibold mb-3">Share files with easy</p>
                 <p>Anvel is an open-source, cross-platform program that lets people share files and folders on their network.</p>
@@ -16,7 +16,7 @@ export default function Page() {
             </div>
             <Image 
                 src="/assets/anvel_2.png" 
-                className="flex flex-col gap-4 object-cover"
+                className="flex flex-col gap-4 object-fit"
                 alt="Anvel's image"
                 width={600}
                 height={600}

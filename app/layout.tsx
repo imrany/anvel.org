@@ -17,13 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className="fixed left-0 right-0 top-0 index-10 h-[45px] text-[13px] border-b-[1px] border-gray-200 px-8">
+        <nav className="h-[50px] text-[13px] border-b-[1px] border-gray-200 px-8">
             <div className="flex items-center justify-between h-full">
                 <div className="flex items-center gap-x-5">
                     <Link href="/">
                     <Image
                         className="mr-5"
-                        src="/next.svg"
+                        src="/anvel.png"
                         alt="Next.js Logo"
                         width={80}
                         height={27}
