@@ -20,6 +20,7 @@
 *{
   font-family:'Inter';  
   color: var(--foreground-rgb);
+  font-size:14px;
 }
 
 @layer utilities {

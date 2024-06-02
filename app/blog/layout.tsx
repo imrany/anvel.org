@@ -1,10 +1,10 @@
+
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/Link"
-import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anvel - Share files with easy.",
+  title: "Blog - Get updated here",
   description: "Share files with easy.",
 };
 
