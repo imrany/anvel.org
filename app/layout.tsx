@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/Link"
+import Link from "next/link"
 import { FaGithub } from "react-icons/fa";
 import "./globals.css";
 
