@@ -1,7 +1,7 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/Link"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Blog - Get updated here",
